@@ -8,7 +8,7 @@
         <scene sceneID="FH2-GL-mmB">
             <objects>
                 <collectionViewController id="yEh-s2-J07" customClass="CoverFlowLayoutCollectionVC" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="IWU-LO-8F8">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" dataMode="prototypes" id="IWU-LO-8F8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewLayout key="collectionViewLayout" id="3TA-gn-ACT" customClass="CoverFlowLayout"/>
