@@ -15,6 +15,7 @@
 		AA2EE70F1BA2072E0068D910 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2EE70D1BA2072E0068D910 /* LaunchScreen.xib */; };
 		AA2EE71B1BA2072E0068D910 /* CoverFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EE71A1BA2072E0068D910 /* CoverFlowLayoutTests.m */; };
 		AA2EE7261BA207D10068D910 /* CoverFlowLayoutCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EE7251BA207D10068D910 /* CoverFlowLayoutCollectionVC.m */; };
+		AA2EE7291BA209EC0068D910 /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EE7281BA209EC0068D910 /* CoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		AA2EE71A1BA2072E0068D910 /* CoverFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayoutTests.m; sourceTree = "<group>"; };
 		AA2EE7241BA207D10068D910 /* CoverFlowLayoutCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayoutCollectionVC.h; sourceTree = "<group>"; };
 		AA2EE7251BA207D10068D910 /* CoverFlowLayoutCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayoutCollectionVC.m; sourceTree = "<group>"; };
+		AA2EE7271BA209EC0068D910 /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		AA2EE7281BA209EC0068D910 /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				AA2EE7031BA2072E0068D910 /* AppDelegate.m */,
 				AA2EE7241BA207D10068D910 /* CoverFlowLayoutCollectionVC.h */,
 				AA2EE7251BA207D10068D910 /* CoverFlowLayoutCollectionVC.m */,
+				AA2EE7271BA209EC0068D910 /* CoverFlowLayout.h */,
+				AA2EE7281BA209EC0068D910 /* CoverFlowLayout.m */,
 				AA2EE7051BA2072E0068D910 /* ViewController.h */,
 				AA2EE7061BA2072E0068D910 /* ViewController.m */,
 				AA2EE7081BA2072E0068D910 /* Main.storyboard */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2EE7071BA2072E0068D910 /* ViewController.m in Sources */,
+				AA2EE7291BA209EC0068D910 /* CoverFlowLayout.m in Sources */,
 				AA2EE7041BA2072E0068D910 /* AppDelegate.m in Sources */,
 				AA2EE7261BA207D10068D910 /* CoverFlowLayoutCollectionVC.m in Sources */,
 				AA2EE7011BA2072E0068D910 /* main.m in Sources */,
