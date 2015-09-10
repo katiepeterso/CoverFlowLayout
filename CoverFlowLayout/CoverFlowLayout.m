@@ -41,6 +41,7 @@
         
         attribute.alpha = 1-(fabs(attributeCenter - visibleCenter)/visibleCenter);
         attribute.transform3D = CATransform3DScale(attribute.transform3D, 1-(fabs(attributeCenter - visibleCenter)/quadVisibleCenter), 1-(fabs(attributeCenter - visibleCenter)/quadVisibleCenter), 0);
+        attribute.transform3D = CATransform3DRotate(attribute.transform3D, M_PI*(fabs(attributeCenter - visibleCenter)/visibleCenter)/4, 0, attribute.size.height, 0);
     }
     return attributes;
 }
