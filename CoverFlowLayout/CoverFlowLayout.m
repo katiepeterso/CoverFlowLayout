@@ -21,7 +21,7 @@
 
 -(void)prepareLayout {
     [super prepareLayout];
-    self.itemSize = CGSizeMake(self.collectionView.frame.size.width/3, self.collectionView.frame.size.height/2);
+    self.itemSize = CGSizeMake(self.collectionView.frame.size.width/4, self.collectionView.frame.size.height/1.5);
     self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 }
 
