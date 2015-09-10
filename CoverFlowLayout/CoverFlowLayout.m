@@ -37,13 +37,10 @@
     for (UICollectionViewLayoutAttributes *attribute in attributes) {
         CGFloat visibleCenter = visibleRegion.size.width/2;
         CGFloat attributeCenter = (attribute.center.x - visibleRegion.origin.x);
+        CGFloat quadVisibleCenter = 4*visibleCenter;
         
-        if (attributeCenter >= visibleCenter) {
-            attribute.alpha = 1-((attributeCenter - visibleCenter)/visibleCenter);
-        }
-        else {
-            attribute.alpha = 1-((visibleCenter - attributeCenter)/visibleCenter);
-        }
+        attribute.alpha = 1-(fabs(attributeCenter - visibleCenter)/visibleCenter);
+        attribute.transform3D = CATransform3DScale(attribute.transform3D, 1-(fabs(attributeCenter - visibleCenter)/quadVisibleCenter), 1-(fabs(attributeCenter - visibleCenter)/quadVisibleCenter), 0);
     }
     return attributes;
 }
